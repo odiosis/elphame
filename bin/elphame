@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const commander = require('commander')
+const consola = require('consola')
+const pkg = require('../package.json')
+const run = require('../lib')
+
+commander.version(pkg.version)
+
+commander
+  .command('init <path>')
+  .alias('i')
+  .description('xxxxxx')
+  .action(path => run.init(path))
+
+commander.parse(process.argv)

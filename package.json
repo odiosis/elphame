@@ -1,0 +1,24 @@
+{
+  "name": "elphame",
+  "version": "0.0.0",
+  "description": "Next station to heaven",
+  "main": "bin/elphame",
+  "bin": {
+    "elphame": "bin/elphame"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odiosis/elphame.git"
+  },
+  "author": "Jikkai Xiao <sonne@asaki.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odiosis/elphame/issues"
+  },
+  "homepage": "https://github.com/odiosis/elphame#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "consola": "^1.3.0"
+  }
+}
